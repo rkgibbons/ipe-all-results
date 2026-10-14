@@ -1,5 +1,5 @@
 # IPE all_results
 
-`all_results.csv`: UK local and general election results (ward/constituency level) joined with accessibility indicators, income, and derived vote-share and vulnerability variables. Exported from `IPE tinkering.qmd` (the `all_results` data frame as of the `derived-variables` chunk).
+`all_results.csv`: UK local and general election results (ward/constituency level) with major-party vote counts and shares, income, and an `other` vote tally. Exported from the final `all_results` data frame in `IPE tinkering.qmd`, trimmed to the columns used in 2026 Lab 3.
 
-18,881 rows × 626 columns. Missing values are empty cells.
+18,881 rows × 29 columns. Missing values are empty cells.
